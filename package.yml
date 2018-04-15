@@ -1,0 +1,15 @@
+name: protonmail-bridge
+version: 1.0.3
+release: 1
+source:
+  - http://www.nano-editor.org/dist/v2.5/nano-2.5.1.tar.gz : e06fca01bf183f4d531aa65a28dffc0e2d10185239909eb3de797023f3453bde
+license: GPL-3.0
+component: network.mail
+summary: Bridge Connector for Protonmail
+description: |
+  Protonmail-Bridge is a desktop program  that runs in your system tray
+  and provides SMTP and IMAP connections you can configure a desktop email
+  application to use. The bridge handles encryption between your computer
+  and Protonmail.
+install: |
+  install -D -m 00644 $pkgfiles/usr /usr
